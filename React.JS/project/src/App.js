@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+import logo from './logo.svg';
+import './App.css';
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>table and form</title>
-
-    <link rel="stylesheet" href="./../css/table and form.css" />
-
-</head>
-
-<body>
-    <div class="container">
-        <div class="form-container">
-            <div class="form-container2">
+function App() {
+  return (
+    <div className="container">
+        <div className="form-container">
+            <div className="form-container2">
                 <h1>College Admission Form</h1>
                 <table>
                     <thead>
@@ -98,8 +90,8 @@
             </div>
         </div>
 
-        <div class="table-container">
-            <div class="table-container2">
+        <div className="table-container">
+            <div className="table-container2">
                 <h1>Student List</h1>
                 <input type="text" placeholder="Enter Your Name" />
 
@@ -109,12 +101,13 @@
 
                 <input type="mobile No" placeholder="No" />
 
-                </br>
+                <br/>
                 <button>Submit</button>
             </div>
 
         </div>
     </div>
-</body>
+  );
+}
 
-</html>
+export default App;
