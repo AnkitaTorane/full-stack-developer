@@ -1,4 +1,4 @@
-.container{
+.MainBox{
    /*border: 1px solid rgb(76, 15, 15);*/
     margin: 4px;
     padding: 5px;
@@ -7,6 +7,11 @@
     font-size: 15px;
     font-style: normal;
     display: flex;
+
+.Name-Box{
+    border: 1px solid rgb(76, 15, 15);
+
+}
 }
 .Preview-container{
 border: 1px solid rgb(21, 20, 21);

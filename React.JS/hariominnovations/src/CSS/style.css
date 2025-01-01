@@ -1,5 +1,22 @@
-.button{
-    background: #EF7F22;
+.button {
+    background: #ef7f22;
     border: none;
     border-radius: 29px;
-}
+  }
+   
+  .nav-bar {
+    margin-left: 18%;
+  }
+   
+  .nav-link {
+    color: #1b2f57;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 12px;
+  }
+   
+  .img-arrow {
+    width: 5%;
+   
+
+  }
