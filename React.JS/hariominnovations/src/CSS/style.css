@@ -1,22 +1,55 @@
-.button {
-    background: #ef7f22;
-    border: none;
-    border-radius: 29px;
-  }
-   
-  .nav-bar {
-    margin-left: 18%;
-  }
-   
-  .nav-link {
-    color: #1b2f57;
-    font-size: 18px;
-    font-weight: 500;
-    margin: 12px;
-  }
-   
-  .img-arrow {
-    width: 5%;
-   
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-  }
+body {
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;*/
+  font-style: normal;
+}
+
+.button {
+  background: #ef7f22;
+  border: none;
+  border-radius: 29px;
+}
+
+.nav-bar {
+  margin-left: 18%;
+}
+
+.nav-link {
+  color: #1b2f57;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 12px;
+}
+
+.img-arrow {
+  width: 5%;
+
+
+}
+
+ul {
+  list-style: none;
+  padding: 0%;
+}
+
+/*footer css star*/
+footer {
+  background-color: #1B2F57;
+  color: white;
+}
+
+footer ul li {
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 13px;
+}
+
+footer h6 {
+  font-size: 18px;
+  font-weight: bold;
+
+
+}
