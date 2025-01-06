@@ -9,7 +9,12 @@ body {
 .Main-NavBar{
   margin-left: 10px;
 }
+.Navbar-first-continer{
+  margin-left: 5%;
+margin-right: 5%;
 
+
+}
 
 
 .button {
@@ -33,24 +38,35 @@ body {
 .img-arrow {
   width: 5%;
   
-
-
-
 }
 
 ul {
   list-style: none;
   padding: 0%;
 }
+/* hero img css start */
+.hero-img-text-div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.hero-img {
+  height: 440px;
 
+}
+/* hero img css end */
 /*footer css star*/
 footer {
   background-color: #1B2F57;
   color: white;
 }
-
+.footer-first-container {
+margin-left: 5%;
+margin-right: 5%;
+/* margin-top: 15px; */
+}
 footer ul li {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: normal;
   margin-top: 13px;
 }
@@ -77,3 +93,6 @@ justify-content: space-between;
 .social-icon-footer{
 margin-left: 20px;
 }
+
+/*footer css end*/
+

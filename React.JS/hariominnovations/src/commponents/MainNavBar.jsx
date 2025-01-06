@@ -11,7 +11,8 @@ import arrow from "./../Images/scroll arrow.png";
 
 const MainNavBar = () => {
   return (
-    <div>
+    <div className="Container">
+      <div className='Navbar-first-continer'>
       <Navbar expand="lg" className="">
         <Navbar.Brand href="#">
           <img src={logo} />
@@ -37,6 +38,7 @@ const MainNavBar = () => {
  
         </Navbar.Collapse>
       </Navbar>
+    </div>
     </div>
   )
 }
