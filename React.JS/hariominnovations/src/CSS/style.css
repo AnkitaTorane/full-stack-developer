@@ -49,12 +49,42 @@ ul {
   position: absolute;
   top: 50%;
   left: 50%;
+ 
 }
+/* .hero-text {
+  font-weight: bolder;
+  text-align: center; 
+  fon
+    
+} */
 .hero-img {
   height: 440px;
 
 }
 /* hero img css end */
+.contact-form-input{
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  margin-top: 15px;
+  background: #F5F5F5;
+  border: none;
+  width: 550px;
+  border-radius: 10px;
+}
+.ContactUs-icons{
+  background: #F5F5F5;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+/* contact us form start */
+
+
+
+
+/* contact us form end */
 /*footer css star*/
 footer {
   background-color: #1B2F57;

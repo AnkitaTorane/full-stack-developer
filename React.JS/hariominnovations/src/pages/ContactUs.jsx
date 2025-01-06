@@ -7,6 +7,11 @@ import facebook from "../Images/facebook-icon.png"
 import twiter from "../Images/twiter-icon.png"
 import instagram from "../Images/instagram-icon.png"
 import ContactUsImage from "../Images/ContactUsImage.png"
+import contactUsCall from "../Images/contactUsCall.png"
+import ContactUsMessage from "../Images/ContactUsMessage.png"
+import ContactUsLocation from "../Images/ContactUsLocation.png"
+// import Button from 'react-bootstrap/Button';
+
 const ContactUs = () => {
 
     return (
@@ -19,19 +24,65 @@ const ContactUs = () => {
             <div className="hero-img-div">
                 <img src={ContactUsImage} className="hero-img" />
                 <div className="hero-img-text-div">
-                    <h2 className="text-white"><b>Contact Us</b></h2>
+                    <h2 className="text-white text-center"><b>Contact Us</b></h2>
                 </div>
-                <h6> form</h6>
-                <h6> form</h6>
-                <h6> form</h6>
-                <h6> form</h6>
-                <h6> form</h6>
-                <h6> form</h6>
-                <h6> form</h6>
-                <h6> form</h6>
-                <h6> form</h6>
-                <h6> form</h6>
-
+            </div>
+            <div className="container">
+                <div className="row text-center">
+                    <div className="col-md-12">
+                        <span>Get In Touch </span>
+                        <h3>Hey! Let’s Talk</h3>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-8">
+                       <input type="text" placeholder="Name"className="contact-form-input"/>
+                       <br/>
+                       <input type="email" placeholder="Email"className="contact-form-input"/>
+                       <br/>
+                       <input type="phone" placeholder="Phone"className="contact-form-input"/>
+                       <br/>
+                       <textarea  placeholder="Your message" className="contact-form-input" />
+ 
+                    </div>
+                    {/* <div>
+                        <Button className="button">Send Now</Button>
+                    </div> */}
+                    
+                    <div className="col-md-4">
+                        
+                        <div className="row">
+                            <div className="col-md-4">
+                            <img src={contactUsCall} className="ContactUs-icons" />
+                            </div>
+                            <div className="col-md-8">
+                                <h3>text</h3>
+                            </div>
+                            <div className="col-md-4">
+                            <img src={ContactUsMessage} className="ContactUs-icons" />
+                            </div>
+                            <div className="col-md-8">
+                                <h3>text</h3>
+                            </div>
+                            <div className="col-md-4">
+                            <img src={ContactUsLocation} className="ContactUs-icons" />
+                            </div>
+                            <div className="col-md-8">
+                                <h3>text</h3>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <h3>Follow us</h3>
+                                    <div>
+                                <img src={facebook} className="social-icon-footer" />
+                                <img src={twiter} className="social-icon-footer" />
+                                <img src={instagram} className="social-icon-footer" />
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.4565993667647!2d74.22187720000001!3d17.3194702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc17f03509738b1%3A0x576f02648d3bb018!2sHari%20Om%20Innovations!5e1!3m2!1sen!2sin!4v1735748730545!5m2!1sen!2sin"
