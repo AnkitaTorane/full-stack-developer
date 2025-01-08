@@ -10,7 +10,13 @@ import ContactUsImage from "../Images/ContactUsImage.png"
 import contactUsCall from "../Images/contactUsCall.png"
 import ContactUsMessage from "../Images/ContactUsMessage.png"
 import ContactUsLocation from "../Images/ContactUsLocation.png"
-// import Button from 'react-bootstrap/Button';
+import contactLinkedin from "../Images/contactLinkedin.png"
+import followusInstagram from "../Images/followusInstagram.png"
+import followUsFacebook from "../Images/followUsFacebook.png"
+import followUsTwiter from "../Images/followUsTwiter.png"
+import ContactUsDash from "../Images/ContactUsDash.png"
+import Button from 'react-bootstrap/Button';
+import ContactusArrow from "../Images/ContactusArrow.png"
 
 const ContactUs = () => {
 
@@ -27,64 +33,80 @@ const ContactUs = () => {
                     <h2 className="text-white text-center"><b>Contact Us</b></h2>
                 </div>
             </div>
-            <div className="container">
-                <div className="row text-center">
+            <div className="container py-5 my-5">
+
+                <div className="row text-center ">
                     <div className="col-md-12">
-                        <span>Get In Touch </span>
-                        <h3>Hey! Let’s Talk</h3>
+                        <img src={ContactUsDash} /> <span className="sub-title">Get In Touch </span>
+                        <h3 className="title-section">Hey! Let’s Talk</h3>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-8">
-                       <input type="text" placeholder="Name"className="contact-form-input"/>
-                       <br/>
-                       <input type="email" placeholder="Email"className="contact-form-input"/>
-                       <br/>
-                       <input type="phone" placeholder="Phone"className="contact-form-input"/>
-                       <br/>
-                       <textarea  placeholder="Your message" className="contact-form-input" />
- 
+                        <input type="text" placeholder="Name" className="contact-form-input" />
+                        <br />
+                        <input type="email" placeholder="Email" className="contact-form-input" />
+                        <br />
+                        <input type="phone" placeholder="Phone" className="contact-form-input" />
+                        <br />
+                        <textarea placeholder="Your message" className="contact-form-input" />
+                        <div>
+                            <Button className="contactus-button">Send Now<img src={ContactusArrow}/></Button>
+                        </div>
+
                     </div>
-                    {/* <div>
-                        <Button className="button">Send Now</Button>
-                    </div> */}
-                    
+
                     <div className="col-md-4">
-                        
-                        <div className="row">
-                            <div className="col-md-4">
-                            <img src={contactUsCall} className="ContactUs-icons" />
+                        <div className="row box-row-icon-text">
+                            <div className="col-md-4 row-icon">
+                                <img src={contactUsCall} className="ContactUs-icons" />
                             </div>
                             <div className="col-md-8">
-                                <h3>text</h3>
+                                <p className="box-row-title">Call Anytime</p>
+                                <span className="box-row-sub-title">
+                                    + 91 23678 27867
+                                    + 91 67678 92878</span>
                             </div>
-                            <div className="col-md-4">
-                            <img src={ContactUsMessage} className="ContactUs-icons" />
+                        </div>
+                        <div className="row box-row-icon-text">
+                            <div className="col-md-4 row-icon">
+                                <img src={ContactUsMessage} className="ContactUs-icons" />
                             </div>
                             <div className="col-md-8">
-                                <h3>text</h3>
+                                <p className="box-row-title">Send Email</p>
+                                <span className="box-row-sub-title">connect@itfirms.com
+                                    hello@itfirms.com</span>
                             </div>
-                            <div className="col-md-4">
-                            <img src={ContactUsLocation} className="ContactUs-icons" />
+                        </div>
+                        <div className="row box-row-icon-text">
+                            <div className="col-md-4 row-icon">
+                                <img src={ContactUsLocation} className="ContactUs-icons" />
                             </div>
                             <div className="col-md-8">
-                                <h3>text</h3>
+                                <p className="box-row-title">Visit Us</p>
+                                <span className="box-row-sub-title">20 Island Park Road,
+                                    New Jearsy, New York, USA</span>
                             </div>
+
+
                             <div className="row">
-                                <div className="col-md-12">
-                                    <h3>Follow us</h3>
+                                <div className="col-md-12 ">
                                     <div>
-                                <img src={facebook} className="social-icon-footer" />
-                                <img src={twiter} className="social-icon-footer" />
-                                <img src={instagram} className="social-icon-footer" />
-                            </div>
+                                        <h3 className="contacus-last-hedding">Follow us</h3>
+                                    </div>
+                                    <br />
+                                    <div>
+                                        <img src={contactLinkedin} className="followUs-icon" />
+                                        <img src={followusInstagram} className="followUs-icon" />
+                                        <img src={followUsFacebook} className="followUs-icon" />
+                                        <img src={followUsTwiter} className="followUs-icon" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.4565993667647!2d74.22187720000001!3d17.3194702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc17f03509738b1%3A0x576f02648d3bb018!2sHari%20Om%20Innovations!5e1!3m2!1sen!2sin!4v1735748730545!5m2!1sen!2sin"
                 width="600"
                 height="500"
@@ -95,7 +117,6 @@ const ContactUs = () => {
                 }}
                 allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
-
             </iframe>
             <footer>
                 <div className="Container">

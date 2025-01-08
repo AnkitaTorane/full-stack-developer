@@ -3,43 +3,47 @@
 body {
   font-family: "Manrope", serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>;*/
+  font-size: 20px;
   font-style: normal;
 }
 .Main-NavBar{
   margin-left: 10px;
 }
 .Navbar-first-continer{
-  margin-left: 5%;
-margin-right: 5%;
-
-
+  margin-left: 10%;
+  margin-right: 10%;
+ 
+ 
 }
-
-
+ 
+ 
 .button {
   background: #ef7f22;
   border: none;
   border-radius: 29px;
+  /* width: 120px; */
+  height:50px;
+
+  
 }
 
 .nav-bar {
   margin-left: 18%;
-  
+ 
 }
-
+ 
 .nav-link {
   color: #1b2f57;
   font-size: 18px;
   font-weight: 500;
   margin: 12px;
 }
-
+ 
 .img-arrow {
   width: 5%;
-  
+ 
 }
-
+ 
 ul {
   list-style: none;
   padding: 0%;
@@ -47,42 +51,96 @@ ul {
 /* hero img css start */
 .hero-img-text-div{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
- 
-}
-/* .hero-text {
-  font-weight: bolder;
-  text-align: center; 
-  fon
-    
-} */
-.hero-img {
-  height: 440px;
 
 }
+.sub-title{
+  color: #EF7F22;
+  font-weight: bold;
+  
+}
+.title-section{
+  color: #1B2F57;
+  font-weight: bold;
+}
+
+.hero-img {
+  height: 585px;
+ 
+}
 /* hero img css end */
+
+ 
+/* contact us form start */
+.contactus-button{
+  background: #ef7f22;
+  border: none;
+  border-radius: 29px;
+  /* width: 120px; */
+  /* height: 50px; */
+  margin-left: 30px;
+  margin-top: 20px;
+
+}
+ 
+.followUs-icon{
+  margin: 10px;
+  background-color: #EF7F22;
+  padding: 17px;
+  width: 50px; 
+  height: 50px; 
+  border-radius: 10px;
+  font-size: 10px;
+  /* display: flex;  */
+  /* justify-content: center; */
+  /* font-size: 10px; */
+
+}
+.box-row-icon-text{
+/* border: 1px solid black; */
+margin: 10px;
+}
 .contact-form-input{
   padding: 10px;
   margin-bottom: 20px;
   margin-left: 35px;
   margin-top: 15px;
-  background: #F5F5F5;
+  background: #F7F7F7;
   border: none;
   width: 550px;
   border-radius: 10px;
 }
 .ContactUs-icons{
   background: #F5F5F5;
-  border: none;
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 20px;
+  padding: 30px; 
+ 
+  
 }
-/* contact us form start */
+.row-icon{
+  text-align: center;
+  margin: auto;
+  
+}
+.box-row-title{
+  color: #EF7F22; 
+  font-weight: bold;
+}
+.box-row-sub-title{
+  color: #0E1F51;
+  /* font-weight: bold; */
+  text-align: justify;
+  
+}
+.contacus-last-hedding{
+  color: #0E1F51;
+  font-weight: bold;
+  margin-left: 15px;
 
-
-
+}
 
 /* contact us form end */
 /*footer css star*/
@@ -91,23 +149,22 @@ footer {
   color: white;
 }
 .footer-first-container {
-margin-left: 5%;
-margin-right: 5%;
-/* margin-top: 15px; */
+  margin-left: 12%;
+  margin-right: 12%;
 }
 footer ul li {
-  font-size: 12px;
-  font-weight: normal;
-  margin-top: 13px;
+  font-size: 17px;
+    font-weight: normal;
+    margin-top: 13px;
 }
-
+ 
 footer h6 {
   font-size: 18px;
   font-weight: bold;
 }
 .footer-icons {
 margin-right: 10px;
-
+ 
 }
 hr{
   color: #495979;
@@ -117,12 +174,11 @@ hr{
 }
 .copy-right-div{
 display: flex;
-justify-content: space-between; 
+justify-content: space-between;
 }
-
+ 
 .social-icon-footer{
 margin-left: 20px;
 }
-
+ 
 /*footer css end*/
-
