@@ -49,7 +49,7 @@ const ContactUs = () => {
                         <br />
                         <input type="phone" placeholder="Phone" className="contact-form-input" />
                         <br />
-                        <textarea placeholder="Your message" className="contact-form-input" />
+                        <textarea placeholder="Your message" rows="8" className="contact-form-input" />
                         <div>
                             <Button className="contactus-button">Send Now<img src={ContactusArrow}/></Button>
                         </div>

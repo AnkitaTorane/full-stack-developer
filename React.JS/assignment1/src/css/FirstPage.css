@@ -1,7 +1,39 @@
 .First-Main-Container{
+    margin-left: 500px;
+    margin-right: 600px;
+    margin-top: 150px;
+    /* border: 1px solid rgb(150, 127, 127); */
+    margin-bottom: 600px;
+}
 
-    margin-top: 200px;
-    margin-left: 300px;
-    margin-right: 300px;
-    /* border: 1px solid black; */
+.Main-Hedding{
+font-weight: bold;
+font-style: italic;
+text-align: center;
+
+}
+
+.fort-info{
+    /* text-align: center; */
+    font-style: normal;
+}
+.FirstPages-img{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+}
+
+.row-image-text{
+    display: flex;
+    text-align: center;
+    margin-top: none;
+}
+.row-pointer-edit{
+    background-color: rgb(216, 219, 221);
+}
+.pointer-cursor{
+    background-color: rgb(216, 219, 221);
+    height: 50px;
+    margin-left: 200px;
+   
 }
