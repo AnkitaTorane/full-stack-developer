@@ -180,5 +180,75 @@ justify-content: space-between;
 .social-icon-footer{
 margin-left: 20px;
 }
+.box-row-icon-text{
+  /* border: 1px solid black; */
+  margin: 10px;
+  }
  
 /*footer css end*/
+
+
+/*Start New Services Page*/
+/* Serices hero img start */
+.Services-img-2{
+  position: relative;
+}
+.services-hero-img{
+  height: 550px;
+}
+.services-hero-img-text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+.Main-Contain{
+  text-align: center;
+  color: #F5F5F5;
+}
+b{
+  font-weight: bold;
+  font-size: 50px;
+}
+/* serives hero img end */
+
+.Main-WD-Container{
+  margin: 50px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+  .Services-WD-images{
+    width: 650px;
+    height: 500px;
+    /* margin: 50px; */
+    /* padding: 30px; */
+}
+
+  .Wd-Heading{
+font-size: 50px;
+color: #1B2F57;
+font-weight: bold;
+  }
+.span-class{
+  color: #EF7F22;
+  font-weight: bold;
+  font-size: 15px;
+}
+p{
+  font-size: 15px;
+    color: #999999;
+    
+}
+.WD-row-text-para{
+  width: 675px;
+    height: 500px;
+    /* margin: 50px; */
+    /* padding: 20px; */
+    /* border: 1px solid black; */
+    /* text-align: justify; */
+    margin-left: 10px;
+    margin-right: 200px;
+}
+/*end New Services Page*/
