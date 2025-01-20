@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from "./../Images/hari om logo.png";
 import arrow from "./../Images/scroll arrow.png";
+import { Link } from 'react-router-dom';
 
 
 const MainNavBar = () => {
@@ -26,13 +27,13 @@ const MainNavBar = () => {
           >
             <Nav.Link className="nav-link">Home</Nav.Link>
             <Nav.Link className="nav-link">About Us</Nav.Link>
-            <Nav.Link className="nav-link">Services</Nav.Link>
+            <Nav.Link className="nav-link"> <Link to="/Services">Services</Link>Services</Nav.Link>
             <Nav.Link className="nav-link">Careers</Nav.Link>
             <Nav.Link className="nav-link">Case Studies</Nav.Link>
             <Nav.Link className="nav-link">Testimonial</Nav.Link>
           </Nav>
           <div className="d-flex">
-            <Button className="button">Contact Us</Button>
+            <Button className="button">< Link to="/ContactUs">Contact Us</Link>Contact Us</Button>
           </div>
           <img src={arrow} className="img-arrow"/>
  
