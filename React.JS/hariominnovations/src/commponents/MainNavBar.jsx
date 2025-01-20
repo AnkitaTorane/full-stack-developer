@@ -25,15 +25,15 @@ const MainNavBar = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link className="nav-link">Home</Nav.Link>
+            <Nav.Link className="nav-link"><Link to="/">Home</Link></Nav.Link>
             <Nav.Link className="nav-link">About Us</Nav.Link>
-            <Nav.Link className="nav-link"> <Link to="/Services">Services</Link>Services</Nav.Link>
+            <Nav.Link className="nav-link"> <Link to="/Services">Services</Link></Nav.Link>
             <Nav.Link className="nav-link">Careers</Nav.Link>
             <Nav.Link className="nav-link">Case Studies</Nav.Link>
             <Nav.Link className="nav-link">Testimonial</Nav.Link>
           </Nav>
           <div className="d-flex">
-            <Button className="button">< Link to="/ContactUs">Contact Us</Link>Contact Us</Button>
+            <Button className="button">< Link to="/ContactUs">Contact Us</Link></Button>
           </div>
           <img src={arrow} className="img-arrow"/>
  

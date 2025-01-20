@@ -365,6 +365,14 @@ margin-right: 500px;
 }
 .web-design-new-class{
  display: flex;
+ gap: 10px;
+}
+.web-design-img{
+  padding: 20px;
+
+}
+.web-design-text{
+  padding: 20px;
 }
 
 /*end New Services Page*/

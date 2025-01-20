@@ -77,7 +77,7 @@ const Services = () => {
                         <div className="col-md-8">
                             <div className="WD-row-text-para">
                                 <div className="web-design-new-class">
-                                    <div>
+                                    <div className="web-design-img"> 
                                         <img src={AppDevArrow} className="app-dev-icons" />
                                     </div>
                                     <div>
@@ -91,7 +91,7 @@ const Services = () => {
                                     </div>
 
                                     <div>
-                                        <div>
+                                        <div className="web-design-text">
                                             <h4 className="app-dev-hedding">Application Development</h4>
                                             <p className="WD-para">No one loves, seeks, or desires pain simply for the sake of pain. However, there are times when effort and pain can lead to significant pleasure.</p>
                                         </div>
