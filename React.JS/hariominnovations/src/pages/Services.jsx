@@ -75,43 +75,68 @@ const Services = () => {
                 <div className="WD-last-Para-img">
                     <div className="row ">
                         <div className="col-md-8">
-                            <div className="WD-row-text-para">
-                                <div className="web-design-new-class">
-                                    <div className="web-design-img"> 
+                            <div className="">
+
+
+
+                                <div className="main-div-img-text">
+                                    <div className="img-div">
                                         <img src={AppDevArrow} className="app-dev-icons" />
                                     </div>
-                                    <div>
+                                    <div className="text-div">
+                                        <h4 className="app-dev-hedding">
+                                            Application Development
+                                        </h4>
+                                        <p className="WD-para">
+                                            No one loves, seeks, or desires pain simply for the
+                                            sake of pain. However, there are times when effort and
+                                            pain can lead to significant pleasure.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="main-div-img-text">
+                                    <div className="img-div">
                                         <img src={AppDevComputer} className="app-dev-icons" />
                                     </div>
-                                    <div>
+                                    <div className="text-div">
+                                        <h4 className="app-dev-hedding">
+                                            Application Development
+                                        </h4>
+                                        <p className="WD-para">
+                                            Lorem ipsum dolor sit amet consectetur. Mollis ut mattis venenatis suspendisse ipsum turpis at nam fringilla. Eu et aenean tortor imperdiet.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="main-div-img-text">
+                                    <div className="img-div">
                                         <img src={AppDevInternet} className="app-dev-icons" />
                                     </div>
-                                    <div>
+
+
+                                    <div className="text-div">
+                                        <h4 className="app-dev-hedding">
+                                            Application Development
+                                        </h4>
+                                        <p className="WD-para">
+                                            Lorem ipsum dolor sit amet consectetur. Mollis ut mattis venenatis suspendisse ipsum turpis at nam fringilla. Eu et aenean tortor imperdiet.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="main-div-img-text">
+                                    <div className="img-div">
                                         <img src={AppDevStar} className="app-dev-icons" />
                                     </div>
 
-                                    <div>
-                                        <div className="web-design-text">
-                                            <h4 className="app-dev-hedding">Application Development</h4>
-                                            <p className="WD-para">No one loves, seeks, or desires pain simply for the sake of pain. However, there are times when effort and pain can lead to significant pleasure.</p>
-                                        </div>
-                                        <div>
-                                            <h4 className="app-dev-hedding">Application Development</h4>
-                                            <p className="WD-para">Lorem ipsum dolor sit amet consectetur. Erat dolor volutpat tincidunt odio donec fermentum donec. Massa justo amet venenatis duis ornare ut leo ut vitae.</p>
-                                        </div>
-                                        <div>
-                                            <h4 className="app-dev-hedding">Application Development</h4>
-                                            <p className="WD-para">Lorem ipsum dolor sit amet consectetur. Mollis ut mattis venenatis suspendisse ipsum turpis at nam fringilla. Eu et aenean tortor imperdiet. At amet platea donec sit blandit purus vitae dignissim. Adipiscing nunc ac nibh nullam ut viverra lorem blandit amet.</p>
-                                        </div>
-                                        <div>
-                                            <h4 className="app-dev-hedding">Application Development</h4>
-                                            <p className="WD-para display-flex">Lorem ipsum dolor sit amet consectetur. Mollis ut mattis venenatis suspendisse ipsum turpis at nam fringilla. Eu et aenean tortor imperdiet. At amet platea donec sit blandit purus vitae dignissim. Adipiscing nunc ac nibh nullam ut viverra lorem blandit amet.</p>
-                                        </div>
+
+                                    <div className="text-div">
+                                        <h4 className="app-dev-hedding">
+                                            Application Development
+                                        </h4>
+                                        <p className="WD-para">
+                                            Lorem ipsum dolor sit amet consectetur. Mollis ut mattis venenatis suspendisse ipsum turpis at nam fringilla. Eu et aenean tortor imperdiet.
+                                        </p>
                                     </div>
                                 </div>
-
-
-
 
                             </div>
                         </div>
@@ -122,15 +147,15 @@ const Services = () => {
                 </div>
             </div>
             <div>
-              
+
                 <div>
                     <h1 className="web-design-hedding">Our Web Design & Development Process</h1>
                     <h6 className="web-design-span">Crafting Exceptional Digital Experience: A Seamless Journey from Concept to Completion</h6>
                 </div>
-                
-                <div className="col-md-4 ">
+
+                <div className="Main-Container">
                     <div className="row web-design-container">
-                        <div className="col-md-4 ">
+                        <div className="col-md-6 ">
                             <div className="web-design-box">
                                 <h3 className="web-design-hedding-box">1.Information Gathering </h3>
                                 <div className="web-design-box-text">
@@ -139,8 +164,8 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        
-                        <div className="col-md-8">
+
+                        <div className="col-md-6">
                             <div className="web-design-box">
                                 <h3 className="web-design-hedding-box">2.Design</h3>
                                 <div className="web-design-box-text">
@@ -150,7 +175,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="row web-design-container">
-                        <div className="col-md-4 ">
+                        <div className="col-md-6 ">
                             <div className="web-design-box">
                                 <h3 className="web-design-hedding-box">3.Content Writing</h3>
                                 <div className="web-design-box-text">
@@ -158,7 +183,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-6">
                             <div className="web-design-box">
                                 <h3 className="web-design-hedding-box">4.Coding</h3>
                                 <div className="web-design-box-text">
@@ -168,7 +193,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="row web-design-container">
-                        <div className="col-md-4 ">
+                        <div className="col-md-6 ">
                             <div className="web-design-box">
                                 <h3 className="web-design-hedding-box">5.Maintenance</h3>
                                 <div className="web-design-box-text">
@@ -176,7 +201,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-6">
                             <div className="web-design-box">
                                 <h3 className="web-design-hedding-box">6.Custom Software Development </h3>
                                 <div className="web-design-box-text">
@@ -185,7 +210,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    
+
 
 
                 </div>

@@ -320,7 +320,7 @@ margin-right: 500px;
     padding: 50px;
     /* margin-top: 50px; */
     margin-left: 250px;
-    margin-right: 500px;
+    margin-right: 300px;
     /* display: flex; */
    
    
@@ -363,16 +363,23 @@ margin-right: 500px;
   margin-top: 60px;
   
 }
-.web-design-new-class{
- display: flex;
- gap: 10px;
-}
-.web-design-img{
-  padding: 20px;
 
-}
-.web-design-text{
-  padding: 20px;
+.main-div-img-text{
+ padding: 20px;
+display: flex;
+      gap: 13px;
+ 
 }
 
 /*end New Services Page*/
+
+
+
+
+
+
+
+
+
+
+/* end AboutUsPage */

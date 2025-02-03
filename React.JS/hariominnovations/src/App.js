@@ -7,14 +7,16 @@ import HomePage from './pages/HomePage';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route /> */}
+        
         <Route path="/" element={<HomePage />} />
         <Route path="ContactUs" element={<ContactUs />} />
         <Route path="Services" element={<Services />} />
+        
       </Routes>
     </BrowserRouter>
 
