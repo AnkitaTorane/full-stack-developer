@@ -1,11 +1,11 @@
-import MainNavBar from "../commponents/MainNavBar"
+import MainNavBar from "../components/MainNavBar"
 import ServicesImage from "../Images/ServicesImage.png"
 import logo from "../Images/footer.png"
 import Location from "../Images/Location-icon.png"
 import message from "../Images/Message-icon.png"
 import call from "../Images/Call-icon.png"
 import facebook from "../Images/facebook-icon.png"
-import twiter from "../Images/twiter-icon.png"
+import twiter from "../Images/twiter-icon.png"  
 import instagram from "../Images/instagram-icon.png"
 import ServicesWD from "../Images/ServicesWD.png"
 import ServicesWD2 from "../Images/ServicesWD2.png"
@@ -21,7 +21,7 @@ const Services = () => {
         <div>
             <div className="Container">
                 <MainNavBar />
-
+        
 
             </div>
 
