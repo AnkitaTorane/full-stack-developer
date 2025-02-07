@@ -194,7 +194,7 @@ margin-left: 20px;
   position: relative;
 }
 .services-hero-img{
-  height: 550px;
+  height: 600px;
 }
 .services-hero-img-text{
   position: absolute;
@@ -375,11 +375,41 @@ display: flex;
 
 
 
+/*Start New AboutUSPage*/
 
+/* Serices hero img start */
+.About-img-2{
+  position: relative;
+}
+.About-hero-img{
+  height: 600px;
+}
+.About-hero-img-text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+.about-Main-Contain{
+  text-align: center;
+  color: #F5F5F5;
+}
+b{
+  font-weight: bold;
+  font-size: 50px;
+}
+/* serives hero img end */
 
+.about-sub-container{
+  /* border: 1px solid black; */
+  background-color: #EF7F22;
 
+  height: 500px;
+  margin-top: 10px;
+}
+.sub-contain-hedding{
+  color: #F5F5F5;
+  font-weight: bold;
+  font-size: 52px;
+}
 
-
-
-
-/* end AboutUsPage */
+/*end New AboutUSPage*/

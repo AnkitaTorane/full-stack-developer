@@ -26,7 +26,7 @@ const MainNavBar = () => {
               navbarScroll
             >
               <Nav.Link className="nav-link"><Link to="/">Home</Link></Nav.Link>
-              <Nav.Link className="nav-link">AboutUs</Nav.Link>
+              <Nav.Link className="nav-link"><Link to="/AboutUs">AboutUs</Link></Nav.Link>
               <Nav.Link className="nav-link"> <Link to="/Services">Services</Link></Nav.Link>
               <Nav.Link className="nav-link">Careers</Nav.Link>
               <Nav.Link className="nav-link">Case Studies</Nav.Link>
