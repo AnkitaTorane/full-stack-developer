@@ -1,4 +1,3 @@
-import MainNavBar from "../components/MainNavBar"
 import ServicesImage from "../Images/ServicesImage.png"
 import logo from "../Images/footer.png"
 import Location from "../Images/Location-icon.png"
@@ -16,11 +15,12 @@ import AppDevArrow from "../Images/AppDevArrow.png"
 import AppDevComputer from "../Images/AppDevComputer.png"
 import AppDevInternet from "../Images/AppDevInternet.png"
 import AppDevStar from "../Images/AppDevStar.png"
+import MainNavBar from "../commponents/MainNavBar"
 const Services = () => {
     return (
         <div>
             <div className="Container">
-                <MainNavBar />
+                <MainNavBar/>
         
 
             </div>
