@@ -411,5 +411,72 @@ b{
   font-weight: bold;
   font-size: 52px;
 }
-
+.about-main-img{
+  margin-top: 150px;
+  height: 450px;
+  margin-left: 350px;
+}
+.about-main-para{
+  margin-top: 150px;
+  /* border: 1px solid black; */
+  width: 650px;
+  
+}
+.about-main-hedding{
+  font-size: 50px;
+  /* font-weight: bold; */
+  color: #1B2F57;
+}
+.about-para{
+  color: #999999;
+  font-size: 15px;
+}
+.ourmission-img{
+  height: 80px;
+  display: flex;
+  padding: 10px;
+}
+.first-about-contain{
+  border: 1px solid #EF7F22;
+  border-radius: 10px;
+  /* height: 350px; */
+  width: 350px;
+  /* padding: 15px; */
+  /* height: 250px; */
+  display: flex
+;
+ 
+}
+.Ourmission-hedding{
+  font-size: 25px;
+  color: #EF7F22;
+  font-weight: bold;
+}
+.Ourmission-para{
+  font-size: 15px;                            
+  color: #1B2F57;
+  
+}
+.sub-about-container{
+  /* border: 1px solid #EF7F22; */
+  display: flex;
+  margin: 10px;
+  margin-left: 300px;
+  margin-top: 100px;
+ 
+}
+.Ourmission-hedding-two{
+  font-size: 25px;
+  font-weight: bold;
+  color: #1B2F57;
+}
+.Ourmission-para-two{
+  font-size: 15px;                            
+  color: #999999;
+}
+.second-about-contain{
+  width: 350px;
+  display: flex;
+  
+}
 /*end New AboutUSPage*/

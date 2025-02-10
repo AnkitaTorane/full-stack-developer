@@ -13,6 +13,9 @@ import ContactUsDash from "../Images/ContactUsDash.png"
 import AboutPagDash from "../Images/AboutPagDash.png"
 import AboutRqustImg from "../Images/AboutRqustImg.png"
 import ReqstQuote from "../Images/ReqstQuote.png"
+import OurMission1 from "../Images/OurMission1.png"
+import OurMission2 from "../Images/OurMission2.png"
+
 
 const AboutUs = () => {
     return (
@@ -35,27 +38,67 @@ const AboutUs = () => {
             <div className='Container'>
                 <div className='row'>
                     <div className='col-md-6'>
-                        <img src={AboutUsMainImg} />
+                        <img src={AboutUsMainImg} className='about-main-img'/>
                     </div>
                     <div className='col-md-6'>
+                        <div className="about-main-para">
                         <div>
                             <img src={ContactUsDash} />
                             <span class="span-class">About Service</span>
                         </div>
-                        <div className="">
-                            <h1 className="">Websites  that tell your
+                        <div>
+                            <h1 className="about-main-hedding">Websites  that tell your
                                 brand’s story</h1>
-                            <p className="">We create websites that beautifully tell your brand’s story, blending captivating design with compelling narratives. Every element, from visuals to content, is thoughtfully crafted to reflect your identity.</p>
-                            <p className="">We create websites that beautifully tell your brand’s story, blending captivating design with compelling narratives. Every element, from visuals to content, is thoughtfully crafted to reflect your identity.</p>
-                            <p className="">We create websites that beautifully tell your brand’s story, blending captivating design with compelling narratives. Every element, from visuals to content, is thoughtfully crafted to reflect your identity.</p>
+                            <p className="about-para">We create websites that beautifully tell your brand’s story, blending captivating design with compelling narratives. Every element, from visuals to content, is thoughtfully crafted to reflect your identity.</p>
+                            <p className="about-para">We create websites that beautifully tell your brand’s story, blending captivating design with compelling narratives. Every element, from visuals to content, is thoughtfully crafted to reflect your identity.</p>
+                            <p className="about-para">We create websites that beautifully tell your brand’s story, blending captivating design with compelling narratives. Every element, from visuals to content, is thoughtfully crafted to reflect your identity.</p>
                             <img src={AboutPagDash} />
                         </div>
                     </div>
-
+                    </div>
                 </div>
             </div>
 
+            <div className='about-container'>
+                <div className='row'>
+                    <div className='sub-about-container'>
+                    <div className='col-md-4'>
+                        <div className='first-about-contain'>
+                        <div className='ourmission-img'>
+                            <img src={OurMission1} className='ourmission-img' />
+                        </div>
+                        <div>
+                            <h1 className='Ourmission-hedding'>Our Mission</h1>
+                            <p className='Ourmission-para'>At Hariom, we will act as client's trusted advisor specializing in areas of technology and digital services to help achieve their business success.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div className='col-md-4'>
+                    <div className='second-about-contain'>
+                    <div>
+                            <img src={OurMission2} className='ourmission-img'/>
+                        </div>
+                        <div className=''>
+                            <h1 className='Ourmission-hedding-two'>Our Mission</h1>
+                            <p className='Ourmission-para-two'>At Hariom, we will act as client's trusted advisor specializing in areas of technology and digital services to help achieve their business success.</p>
+                        </div>
 
+                    </div>
+                    </div>
+                    <div className='col-md-4'>
+                    <div className='second-about-contain'>
+                    <div>
+                            <img src={OurMission2} className='ourmission-img'/>
+                        </div>
+                        <div>
+                            <h1 className='Ourmission-hedding-two'>Our Mission</h1>
+                            <p className='Ourmission-para-two'>At Hariom, we will act as client's trusted advisor specializing in areas of technology and digital services to help achieve their business success.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
 
             <div className='about-sub-container'>
                 <div className='row main-box'>
