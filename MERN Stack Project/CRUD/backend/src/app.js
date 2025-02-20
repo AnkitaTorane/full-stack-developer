@@ -3,18 +3,18 @@ const express = require("express"); // Express framework for Node.js
 const mongoose = require("mongoose"); // Mongoose for MongoDB object modeling
 const cors = require("cors"); // CORS to allow cross-origin requests
 
-// Initialize Express application
-const app = express();
 
-// Define the port number for running the server
-const PORT = 8080;
+const app = express(); // Initialize Express application
+const PORT = 8080; // Define the port number for running the server
 
-// Middleware setup
+
+
+// Middleware setups
 app.use(cors()); // Enable CORS for cross-origin requests
 app.use(express.json()); // Enable parsing of JSON request bodies
 
 // Connect to MongoDB database
-mongoose.connect("mongodb://localhost:27017/crud-db")
+mongoose.connect("mongodb://127.0.0.1:27017/crud-db")
     .then(() => console.log("MongoDB Connected")) // Success message if connection is successful
     .catch((err) => console.log("MongoDB Connection Error:", err)); // Error message if connection fails
 
