@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 
 const Local = () => {
 
+    
+
     const [data, setdata] = useState("test...!")
     const handlelSubmit = () => {
         localStorage.setItem("localData", data)
