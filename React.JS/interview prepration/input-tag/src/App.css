@@ -1,38 +1,66 @@
-.App {
+.container{
+  
+  /* border: 1px solid black; */
+  padding: 30px;
+  margin-right: 300px;
+  
+  margin-left: 300px;
+  margin-right: 400px;
+}
+.sub-container{
+  
+  font-size: 20px;
+  margin-left: 300px;
+  margin-right: 400px;
+  background-color: rgb(241, 241, 245);
+  border-radius: 10px;
+}
+.currentTime{
+  width: 200px;
+  height: 30px;
+}
+.form-div{
+  display: flex;
+}
+.hedding{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name-box{
+  
+  margin: 20px;
+  height: 30px;
+  width: 450px;
+  border-radius: 3px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.radio-box{
+  margin: 20px;
+  width: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.searchBar{
+  margin: 20px;
+  width: 300px;
 }
-
-.App-link {
-  color: #61dafb;
+.search-contain{
+  background-color: rgb(237, 236, 247);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-btn{
+  background-color: rgb(161, 64, 213);
+  width: 200px;
+  height: 40px;
+  margin-left: 150px;
+  border-radius: 10px;
+  border: none;
+  
+}
+.btn-reset{
+  background-color: rgb(235, 67, 142);
+  width: 200px;
+  height: 40px;
+  margin-left: 150px;
+  border-radius: 10px;
+  border: none;
+}
+.profile-photo{
+  background-color: rgb(210, 209, 209);
+  font-size: 20px;
 }
