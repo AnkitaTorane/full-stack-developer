@@ -1,15 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>audio tag</title>
-</head>
-<body>
-    <audio controls autoplay>
-        <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
+    <title>HTML TAGS</title>
+    <style>
+        aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+        }
 
-    </audio>
+        .main-container {
+            /* border: 1px solid black; */
+            height: 800px;
+            width: 900px;
+            margin-left: 400px;
+        }
+
+        .navbar {
+            background: rgb(123, 53, 214);
+            font-family: Calibri;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .navdiv {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        li a {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: black;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 90px;
+        }
+
+        button a {
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <!-- start nav tag -->
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="#">NavBar</a></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About US</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help</a></li>
+                    <button>
+                        <li><a href="#">Sign In</a></li>
+                    </button>
+                    <button>
+                        <li><a href="#">Sign Up</a></li>
+                    </button>
+                </ul>
+
+            </div>
+        </nav>
+        <br><br>
+        <!-- end nav tag -->
+        <!-- start video tag -->
+
+
+        <video controls height="500px">
+            <source src="videorun.mp4" type="video/mp4">">
+        </video>
+
+
+
+        <!-- end video tag -->
+
+
+        <!-- start audio tag -->
+
+
+
+        <div>
+            <audio controls>
+
+                <source src="audio.mp3" type="audio/mp3">
+
+            </audio>
+
+        </div>
+        <!-- end audio tag -->
+        <!-- start asside tag -->
+        <article style="width: 65%; float: left; padding: 30px;">
+            <p>Radha-Krishna (IAST rādhā-kṛṣṇa, Sanskrit: राधा कृष्ण) is the combined form of the Hindu god Krishna with
+                his chief consort and shakti Radha. They are regarded as the feminine as well as the masculine realities
+                of God,[7] in several Krishnaite traditions of Vaishnavism.</p>
+
+            <div>
+                <aside>
+
+                    <img style="width: 100px;  
+                    float: none;
+                    color: white;
+                    padding: 25px;" src="radha-krishna-png.png" />
+                </aside>
+            </div>
+            <p>
+                In Krishnaism, Krishna is referred to as Svayam Bhagavan [11] and Radha is illustrated as the primeval
+                potency of the
+                three main potencies of God, Hladini (immense spiritual bliss), Sandhini (eternality), and Samvit
+                (existential
+                consciousness), of which Radha is an embodiment of the feeling of love towards Krishna (Hladini)
+            </p>
+            <p>
+                In Krishnaism, Krishna is referred to as Svayam Bhagavan [11] and Radha is illustrated as the primeval
+                potency of the
+                three main potencies of God, Hladini (immense spiritual bliss), Sandhini (eternality), and Samvit
+                (existential
+                consciousness), of which Radha is an embodiment of the feeling of love towards Krishna (Hladini)
+            </p>
+        </article>
+
+
+        <!-- end asside tag -->
+    </div>
 </body>
+
 </html>
