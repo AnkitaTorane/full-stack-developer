@@ -8,7 +8,7 @@ function About() {
     return (
     <div>
       <h1>About page</h1>
-      <button type="button" className="btn btn-primary"onClick={}>Primary</button>
+      <button type="button" className="btn btn-primary">Primary</button>
     </div>
     );
   }
